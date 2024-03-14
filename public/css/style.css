@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary:#8e2a4c;
-    --secondary:black;
+    --primary:#f3a55e;
+    --secondary: #58282e;
     --light: #FFF;
     --dark: #2B2825;
 }
@@ -125,8 +125,20 @@ h6,
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
-    background-size: cover;
+    position: relative;
+    overflow: hidden; /* Para esconder partes do vídeo que ultrapassam o elemento */
+
+}
+
+.video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Para colocar o vídeo atrás do conteúdo */
 }
 
 .btn-play {
