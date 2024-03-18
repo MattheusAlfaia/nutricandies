@@ -35,7 +35,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-        <img src="/img/logo.jpg" alt="Nome da Empresa" class="logo">
+        <a href="/" class="nav-item nav-link active"> <img src="/img/logo.jpg" alt="Nome da Empresa" class="logo"> </a>
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 text-uppercase text-white">NUTRICANDIES</h1>
         </a>
@@ -46,14 +46,14 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="menu.html" class="nav-item nav-link">Menu & Pricing</a>
+                <a href="/" class="nav-item nav-link">Home</a>
+                <a href="/sobre" class="nav-item nav-link">Sobre</a>
+                <a href="/servico" class="nav-item nav-link">Serviços</a>
                 <a href="team.html" class="nav-item nav-link">Master Chefs</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
-                        <a href="service.html" class="dropdown-item">Our Service</a>
+
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
@@ -141,6 +141,8 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
 
 
     <!-- JavaScript Libraries -->

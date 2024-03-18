@@ -1,5 +1,7 @@
+
 (function ($) {
     "use strict";
+
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -9,9 +11,10 @@
             $('.navbar').removeClass('sticky-top');
         }
     });
-    
+
     // Dropdown on mouse hover
     $(document).ready(function () {
+
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
                 $('.navbar .dropdown').on('mouseover', function () {
@@ -34,7 +37,7 @@
         $('.btn-play').click(function () {
             $videoSrc = $(this).data("src");
         });
-        console.log($videoSrc);
+
 
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
@@ -44,8 +47,8 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -90,6 +93,7 @@
             }
         }
     });
-    
+
+
 })(jQuery);
 

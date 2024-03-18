@@ -8,12 +8,13 @@
     <div class="container py-5">
         <div class="row justify-content-start">
             <div class="col-lg-8 text-center text-lg-start">
-                <h1 class="font-secondary text-primary mb-4">Super Crispy</h1>
-                <h1 class="display-1 text-uppercase text-white mb-4">CakeZone</h1>
-                <h1 class="text-uppercase text-white">The Best Cake In London</h1>
+
+                <h1 id="title" class="display-1 text-uppercase text-white mb-4 ">Nutricandies</h1>
+                <h1 id="subtitle" class="text-uppercase"> <span id="text-destaque">Nutrindo</span> a vida e o planeta de forma <span id="text-destaque">doce</span>
+                </h1>
                 <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                     <video autoplay loop muted playsinline id="myVideo" class="video-background">
-                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="video/video.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
@@ -499,61 +500,6 @@
 <!-- Offer End -->
 
 
-<!-- Testimonial Start -->
-<div class="container-fluid py-5">
-    <div class="container">
-        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
-            <h2 class="text-primary font-secondary">Testimonial</h2>
-            <h1 class="display-4 text-uppercase">Our Clients Say!!!</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-item bg-dark text-white border-inner p-4">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
-                    <div class="ps-3">
-                        <h4 class="text-primary text-uppercase mb-1">Client Name</h4>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                </p>
-            </div>
-            <div class="testimonial-item bg-dark text-white border-inner p-4">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
-                    <div class="ps-3">
-                        <h4 class="text-primary text-uppercase mb-1">Client Name</h4>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                </p>
-            </div>
-            <div class="testimonial-item bg-dark text-white border-inner p-4">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
-                    <div class="ps-3">
-                        <h4 class="text-primary text-uppercase mb-1">Client Name</h4>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                </p>
-            </div>
-            <div class="testimonial-item bg-dark text-white border-inner p-4">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;">
-                    <div class="ps-3">
-                        <h4 class="text-primary text-uppercase mb-1">Client Name</h4>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonial End -->
+
 
 @endsection
